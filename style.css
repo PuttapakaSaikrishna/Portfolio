@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,800&display=swap');
+
+
+*{
+  
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* light300
+regular 400
+medium 500
+bold 700 */
+
+.container{
+  padding:50px
+}
+.heading{
+  font-size: 60px;
+  font-weight: 600;
+  color: red;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  position: relative;
+}
+.section2{
+
+  padding-top: 50px;
+}
+
+.section{
+  background-color:#002b5b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.p{
+  padding-top:100px ;
+  
+}
+.bio-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-image img {
+  width: 80%;
+  box-shadow: 1rem -1rem 0 0 #8490ff;
+  display: inline-block;
+}
+.cards1{
+  padding: 100px;
+}
+.card12{
+background-color: #002b5b;
+padding: 20px;
+border-radius: 50px;
+
+}
+.card2{
+padding-top: 50px;
+}
+
+
+.btn {
+  background: rgb(132 144 255) 0%;
+ 
+  text-decoration: none;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 10px;
+  color: #f3f4ff;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+.btn:hover,
+.btn:active {
+  /* box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%); */
+  box-shadow: rgb(98 189 252) 100%;
+}
+
+.section-freelancing {
+  background-image: url("../images/folio/3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  position: relative;
+  transition: all 0.7s linear;
+  text-align: center;
+}
+
+.section-freelancing .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#3e64ff;
+  opacity: 0.7;
+}
+
+.section-freelancing .containeer {
+  position: relative;
+  padding: 60px;
+}
+
+.section-freelancing h2 {
+  font-size: 5.4rem;
+}
+
+.section-freelancing span {
+  color: #a0f669;
+}
+
+.section-freelancing h2,
+.section-freelancing p {
+  color: white;
+  margin-bottom: 1.8rem;
+}
